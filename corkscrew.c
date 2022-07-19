@@ -7,7 +7,6 @@
 	#include <sys/socket.h>
 	#include <sys/time.h>
 	#include <unistd.h>
-#define socket_t int
 #else
 	#include <io.h>
 	#include <WinSock2.h>
