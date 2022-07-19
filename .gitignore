@@ -22,3 +22,5 @@ corkscrew
 *.o
 .*.swp
 .*.swo
+
+build
