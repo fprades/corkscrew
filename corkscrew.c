@@ -163,7 +163,7 @@ int port;
 	else
 		memcpy(&addr.sin_addr, hent->h_addr, hent->h_length);
 	addr.sin_family = AF_INET;
-	addr.sin_port = htons((u_short)port);
+	addr.sin_port = htons(port);
 
 	if (connect(fd, (struct sockaddr *)&addr, sizeof(addr)))
 		return -1;
